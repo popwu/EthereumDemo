@@ -13,6 +13,9 @@
     "buffer": "^6.0.3",
     "ethereumjs-util": "^7.1.5",
     "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^6.13.2",
+    "global": "^4.4.0",
+    "process": "^0.11.10",
     "vue": "^3.4.37",
     "vue-router": "^4.4.4",
     "web3": "^4.12.1"
@@ -20,10 +23,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "autoprefixer": "^10.4.20",
+    "node-polyfill-webpack-plugin": "^4.0.0",
     "postcss": "^8.4.45",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",
+    "vite-plugin-node-polyfills": "^0.22.0",
     "vue-tsc": "^2.0.29"
   }
 }
