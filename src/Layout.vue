@@ -22,6 +22,8 @@ const routes = ref([
   { path: '/', name: '首页' },
   { path: '/account', name: '账号' },
   { path: '/bip39', name: 'bip39' },
+  { path: '/ethwallet', name: 'ETH钱包' },
+  { path: '/keystore', name: 'Keystore' },
   { path: '/hello', name: 'HelloWorld' },
   { path: '/about', name: '关于' },
   { path: '/contact', name: '联系我们' },
