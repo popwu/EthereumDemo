@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bip39": "^3.1.0",
+    "buffer": "^6.0.3",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
     "vue": "^3.4.37",
     "vue-router": "^4.4.4",
     "web3": "^4.12.1"
