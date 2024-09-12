@@ -8,6 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Bip39 from './components/bip39.vue'
 import EthWallet from './components/ETHWallet.vue'
 import Keystore from './components/KeyStore.vue'
+import Wallet from './components/Wallet.vue'
 
 const routes = [
   {
@@ -22,6 +23,7 @@ const routes = [
       { path: 'bip39', component: Bip39 },
       { path: 'ethwallet', component: EthWallet },
       { path: 'keystore', component: Keystore },
+      { path: 'wallet', component: Wallet },
     ],
   },
 ]

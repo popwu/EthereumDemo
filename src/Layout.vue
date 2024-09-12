@@ -25,6 +25,7 @@ const routes = ref([
   { path: '/ethwallet', name: 'ETH钱包' },
   { path: '/keystore', name: 'Keystore' },
   { path: '/hello', name: 'HelloWorld' },
+  { path: '/wallet', name: '钱包' },
   { path: '/about', name: '关于' },
   { path: '/contact', name: '联系我们' },
 ])

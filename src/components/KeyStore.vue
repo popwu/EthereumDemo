@@ -33,6 +33,8 @@ const generateKeystoreFromMnemonic = async () => {
   const web3 = new Web3();
   const account = web3.eth.accounts.privateKeyToAccount(privateKeyHex);
   const keystore = await account.encrypt(password.value);
+//   const keystore2 = await walletInstance.toV3(password.value);
+//   console.log(keystore2);
   keystoreFromMnemonic.value = JSON.stringify(keystore);
   privateKeyFromMnemonic.value = account.privateKey;
   addressFromMnemonic.value = account.address;
