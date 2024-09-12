@@ -20,6 +20,7 @@ import { ref } from 'vue'
 
 const routes = ref([
   { path: '/', name: '首页' },
+  { path: '/account', name: '账号' },
   { path: '/hello', name: 'HelloWorld' },
   { path: '/about', name: '关于' },
   { path: '/contact', name: '联系我们' },
